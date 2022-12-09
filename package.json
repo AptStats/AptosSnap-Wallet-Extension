@@ -1,12 +1,29 @@
 {
   "name": "@aptstats/aptossnap-wallet-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "src",
     "dist"
   ],
+  "repository": {
+    "url": "https://github.com/AptStats/aptossnap-wallet-extension"
+  },
+  "keywords": [
+    "Aptos",
+    "AptStats",
+    "Aptos wallet",
+    "Aptos Wallet Adapters",
+    "Aptos wallet extensions",
+    "AptosSnap",
+    "Aptos Snap Wallet"
+  ],
+  "author": {
+    "name": "Eric Allen",
+    "email": "eric@aptstats.xyz",
+    "url": "https://aptstats.xyz"
+  },
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "rm -rf dist; tsc"
